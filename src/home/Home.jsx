@@ -1,127 +1,21 @@
 import "./home.scss"
 import Navbar from "../navbar/Navbar";
+import Features from "../features/Features";
+import List from "../movieList/List";
 const Home=()=>{
     return(
         <div className="home">
     
-        <Navbar/>
-        <img width="100%"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcSKEw7g6fJnhVnl5WW1QndYYrxsDb8VpLWw&usqp=CAU" alt="sony movies"/>
-        onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-    onu princeley toochukwu how are u doing todya , i hope u are fine
-
-
+        <Navbar />
+        <Features type="movie"/>
+        {/* Each List component has ListItem component
+        and each list Component has 10 list Component*/}
+        <List/>
+        <List/>
+        <List/>
+        <List/>
         </div>
+        
     )
 }
 export default Home;

@@ -5,9 +5,11 @@
     top: 0;
     width: 100%;
     z-index: 999;
-    background: linear-gradient(to top, transparent 0%, rgba(212, 14, 193, 0.3) 50%);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(238,0,33,0.06486344537815125) 41%, rgba(0,212,255,1) 100%);
     &.scrolled{
-background-color: rgb(81, 102, 235);
+        background: rgb(63,94,251);
+        background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,128,70,0.835171568627451) 100%);
     }
         color: white;
         .container{
