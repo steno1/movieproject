@@ -1,6 +1,39 @@
 .listItem{
     height: 120px;
     width: 225px;
-    background-color: white;
+    background-color: lightblue;
     margin-right: 5px;
+    overflow: hidden;
+    
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        cursor: pointer;
+         
+    }
+    &:hover{
+        width: 325px;
+        height: 300px;
+        position: absolute;
+        top: -150px;
+        border-radius: 5px;
+
+        
+        img{
+            height: 140px;
+            transform: scale(2);
+            transform: rotate(360deg);
+            
+        }
+    }
+    video{
+        width: 100%;
+        height: 140px;
+        object-fit: cover;
+        position: absolute;
+        top:0;
+        left: 0;
+    }
+    
 }
