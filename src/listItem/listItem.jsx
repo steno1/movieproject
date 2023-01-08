@@ -17,11 +17,11 @@ const ListItem=({index})=>{
   
   {/* listItem  general information */}  
 <div className="info">
-    <div className="icon">
-<PlayArrowIcon/>
-<AddIcon/>
-<ThumbUpOutlinedIcon/>
-<ThumbDownAltOutlinedIcon />
+    <div className="icons">
+<PlayArrowIcon className="icon"/>
+<AddIcon className="icon"/>
+<ThumbUpOutlinedIcon className="icon"/>
+<ThumbDownAltOutlinedIcon className="icon" />
     </div>
 
     <div className="itemInfoTop">
