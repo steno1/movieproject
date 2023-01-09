@@ -1,0 +1,102 @@
+.login{
+    width: 100vw;
+    height:100vh;
+    
+    //background: rgb(34,97,195);
+    //background: linear-gradient(0deg, rgba(34,97,195,1) 2%,
+    // rgba(15,15,19,1) 100%);
+    background: linear-gradient(
+        to bottom, rgba(0,0,0,0)0%,
+        rgba(0,0,0,1) 100%
+    ),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa64tlJT8t-chR_iVjTEex3efAgFkqyBHbhg&usqp=CAU");
+    position: relative;
+    .top{
+       .wrapper{
+        padding: 20px 50px;
+        display: flex;
+        
+        align-items: center;
+        justify-content: space-between;
+        .logo{
+            height: 40px;
+            border-radius: 5px;
+
+        }
+        .loginButton{
+            background-color: #791313;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            padding: 5px 15px;
+            font-size: 16px;
+            font-weight: 800;
+            cursor: pointer;
+        }
+       } 
+    }
+       .container{
+        
+        width: 100%;
+        width: 100%;
+        
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding: 10px;
+        margin-top: 5rem;
+        h1{
+            font-size: 50px;
+            
+        }
+        h2{
+           margin: 10px; 
+        }
+        p{
+            font-size: 20px;
+
+        }
+        form{
+            border-radius: 10px;
+            background-color:#434242;
+            width: 300px;
+            height: 300px;
+            padding: 30px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            
+           
+            input{
+                height: 40px;
+                border-radius: 5px;
+                background-color: gray;
+                color: white;
+                padding: 10px;
+                &::placeholder{
+                    color: lightgrey;
+                }
+            }
+button{
+    height: 40px;
+    border-radius: 5px;
+    background-color: #791313;
+    color: white;
+    border: none;
+    font-size: 500;
+    cursor: pointer;
+}
+span{
+    color: lightgray;
+    b{
+        color: white;
+    }
+}
+        }
+        
+    }
+}
