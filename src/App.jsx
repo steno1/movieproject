@@ -1,13 +1,14 @@
 
 import './App.scss';
 
-import Watch from './pages/watch/Watch';
+//import Watch from './pages/watch/Watch';
+import Register from './pages/register/Register';
 
 function App() {
   return (
     <div className="App">
       
-      <Watch/>
+      <Register/>
     </div>
   );
 }
