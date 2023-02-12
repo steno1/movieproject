@@ -9,7 +9,7 @@ const Navbar=()=>{
     const [isScrolled, setIsScrolled]=useState(false);
     
     //using a window function for the scrolling
-    window.onscroll=()=>{
+    window.onscroll=()=>{//a scroll function
         setIsScrolled(window.pageYOffset===0?false:true)
 
         // a clean up function to avoid continous looping

@@ -15,17 +15,20 @@ const [isMoved, setIsMoved]=useState(false);
     const listRef=useRef()//use in getting the container Div
     const handleClick=(direction)=>{
         //when button is clicked setIsMoved=true
-        setIsMoved(true);
+        setIsMoved(true)//initial value is now opposite
         let distance=listRef.current.getBoundingClientRect().x-50
-        if(direction==="left" && slideNumber>0){
-            setSlideNumber(slideNumber -1);
+        if(direction==="left" && slideNumber > 0){
+            setSlideNumber(slideNumber-1);   
 listRef.current.style.transform=`translateX(${230+distance}px)`
         }
-        if(direction==="right" && slideNumber<5){
-            setSlideNumber(slideNumber +1)
+        
+        if(direction==="right" && slideNumber < 5){
+            setSlideNumber(slideNumber+1)
             listRef.current.style.transform=`translateX(${-230+distance}px)`
                     }
+                    
     }
+    
     return(
         <div className="list">
 <span className="listTitle">Continue to watch</span>
@@ -34,9 +37,9 @@ listRef.current.style.transform=`translateX(${230+distance}px)`
     onClick={()=>handleClick("left")}
     style={{display:!isMoved && "none"}}//if slide doesnt move, hide arrow
 />
-<div className="container" ref={listRef}>
+<div className="container" ref={listRef}> 
 {/* Each listItem in List contains a movie, 
-so each of the list component has 10 listItem, containing movies*/}
+so each of the list component has 10 listItem, containing movies*/} 
 <ListItem index={0}/>
 <ListItem index={1}/>
 <ListItem index={2}/>

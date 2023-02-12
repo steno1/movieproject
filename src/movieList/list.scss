@@ -10,6 +10,7 @@ background-color: #144272;
     margin-left: 50px;
 }
 .wrapper{
+    
     position: relative;
     .sliderArrow {
         z-index: 999;
@@ -35,7 +36,7 @@ left: 0;
         margin-left: 50px;
         display: flex;
         width: max-content;
-        margin-top: 20px;
+        margin-top: 10px;
         transform: translateX(0px);
         transition: all 1s ease;
     }
