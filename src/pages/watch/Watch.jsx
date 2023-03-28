@@ -3,6 +3,7 @@ import ArrowBackOutlinedIcon from '@mui/icons-material/ArrowBackOutlined';
 import {Link,useLocation} from "react-router-dom"
 const Watch=()=>{
     const location = useLocation();
+    //This synchronizes it with movie in the listItem
     const movie=location.state.watchMovies;
     return(
         <div className="watch">

@@ -14,7 +14,7 @@ const ListItem=({index, movieId})=>{
 try{
 const res=await axios.get("/movies/find/" +movieId,{
 headers:{
-  token: "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZjBjZjNmYTQ3Y2FhMTZkZjdiMmMzZSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3Njg1OTEyNywiZXhwIjoxNjc3NDYzOTI3fQ.ZtTOIidLlxWlbWUm_3reZ3xpj8qNplhjduhP5KAFek0"
+  token: "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjBmZDk3NWUxOTJmNWY4NzZhOTJhNyIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2Nzk4ODM2ODgsImV4cCI6MTY4MDQ4ODQ4OH0.A53J764ZcABoCA-ztMk4Gro9yZuhSb76pdKyGMv3Y3k"
 } });
 setMovie(res.data)
 }catch(error){
