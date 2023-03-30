@@ -22,6 +22,7 @@ const Register=()=>{
 
 <button className="loginButton">Sign In</button>
 </div>
+
 </div>
 <div className="container">
 <h1>Unlimited movies, Tv shows, and more...</h1>
@@ -31,7 +32,7 @@ const Register=()=>{
     //if email is not set, display this, else display password input
     !email ? (
         <div className="input" >
-   <input ref={emailRef} type="email" placeholder="Email Address"/>
+   <input ref={emailRef} type="email" placeholder="Your Email Address"/>
 <button className="registerButton" onClick={()=>handleClick()}> 
 Get Started
 </button>
