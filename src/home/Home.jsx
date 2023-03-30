@@ -31,7 +31,7 @@ console.log(err)
         and each list Component has 10 list Component*/}
         {lists.map((list)=>{
           return (
-            <List listProp={list}/>
+            <List listProp={list} />
           )  
         })
         }

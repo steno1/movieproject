@@ -19,7 +19,7 @@ setContent(res.data[0])
      } 
      getRandomContent();  
     },[type])
-    console.log(content)
+    
     return(
         //features container
     <div className="features">
@@ -33,7 +33,7 @@ setContent(res.data[0])
 <option>Genre</option>
 <option value='adventure'>Adventure</option>
 <option value="comedy">Comedy</option>
-<option value='Crime'>Crime</option>
+<option value='crime'>Crime</option>
 <option value="fantasy">Fantasy</option>
 <option value="historical">Historical</option>
 <option value="romance">Romance</option>

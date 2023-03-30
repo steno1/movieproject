@@ -1,4 +1,5 @@
 import "./listItem.scss"
+import ReactPlayer from "react-player"
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import AddIcon from '@mui/icons-material/Add';
 import ThumbUpOutlinedIcon from '@mui/icons-material/ThumbUpOutlined';
@@ -7,6 +8,7 @@ import { useEffect, useState } from "react";
 import {Link} from "react-router-dom";
 import axios from "axios";
 const ListItem=({index, movieId})=>{
+ 
   const [isHovered, setIsHovered]=useState(false);
   const [movie, setMovie]=useState({})
  useEffect(()=>{
@@ -31,7 +33,11 @@ console.log(error)
 <img src={movie.imgCoverPage} alt=""/>
   {isHovered && (
     <>
-    <video src={movie.trailer} autoPlay={true} loop/>
+   <video src={movie.trailer} autoPlay={true} loop/> 
+   
+   {/* <ReactPlayer url="https://www.youtube.com/watch?v=mY3hFUg0d90"/>
+   */}
+   
   
   {/* listItem  general information */}  
 <div className="info">
