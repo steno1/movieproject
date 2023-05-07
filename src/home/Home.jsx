@@ -1,4 +1,6 @@
-import "./home.scss"
+//home
+
+import "./home.scss";
 import Navbar from "../navbar/Navbar";
 import Features from "../features/Features";
 import List from "../movieList/List";
